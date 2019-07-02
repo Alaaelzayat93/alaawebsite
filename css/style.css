@@ -218,6 +218,8 @@ section.services .column button{
 section.services hr{
     height: 1px;
     background: #1b9a6e;
+    width: 80%;
+    margin: 20px auto;
 }
 section.services .column i#w{
     color:#be54b8;
