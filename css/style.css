@@ -317,15 +317,72 @@ section.work .father .image:hover .layout{
 }
 /************try************/
 .try{
-    background: url(../images/back.jpg);
-    position: relative;
+    background: #1b9a6e;
+    
     color: #fff;
-    height: 300px;
+    height: 400px;
 }
 .try img{
-        width: 40%;
+        width: 60%;
     animation: pulse 2.5s linear infinite;
+    margin-top: 30px;
 }
-.try .paragraph{
-    padding: 20px 0;
+.try .main{
+    padding: 40px;
+}
+.try .main h2{
+    font-size: 40px;
+}
+.try .main h4{
+    font-size: 25px;
+}
+.try .main hr{
+        height: 1px;
+    background: #fafdfc;
+    width: 25%;
+}
+/*******promise************/
+.promise{
+    padding: 20px;
+}
+.promise p{
+    margin:20px;
+    color: #555;
+}
+.promise .icon{
+    float: left;
+    width: 19%;
+    font-size: 30px;
+    color: #1b996e;
+}
+
+.promise .title{
+    width: 80%;
+    float: left;
+}
+.promise .title h2{
+   color #353535;
+   font-size: 22px;
+}
+.promise .title p{
+    color: #c5c0c0;
+}
+div.promise h1{
+    text-align: center;
+}
+div.promise .line{
+    width: 200px;
+    background: #ddd;
+    height: 1px;
+    margin: auto;
+}
+div.promise .line span{
+    display: block;
+    width:100px;
+    background: #1b9a6e;
+    height: 4px;
+    margin: auto;
+}
+div.promise p{
+    text-align: center;
 }
