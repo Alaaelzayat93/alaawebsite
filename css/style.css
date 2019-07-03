@@ -79,11 +79,11 @@ width: 100%;
 }
 @media(max-width: 768px),(max-width: 400px){
 .navbar-collapse{
-    background: #493b50;
+    background: #1b9a6e;
 }
 }
 .navbar-toggler-icon{
-    background: #fff;
+    background: #1b9a6e;
     color:#FF1756;
 }
 /*nav end*/
@@ -160,6 +160,15 @@ text-align: center;
 
 
 }
+@media(max-width: 768px),(max-width: 400px){
+    .header .slider li p{
+    font-size: 10px;
+    color: #ccc;
+    margin-top: 20px;
+        width: 100%;
+    
+}
+}
 /*********services*************/
 section.services{
    
@@ -229,4 +238,94 @@ color:#adc941;
 }
 section.services .column i#react{
   color:#de7f6b;  
+}
+/*********services*************/
+section.work{
+   
+    background: #fff;
+    padding: 50px 50px;
+
+}
+section.work h1{
+    text-align: center;
+}
+section.work .line{
+    width: 200px;
+    background: #ddd;
+    height: 1px;
+    margin: auto;
+}
+section.work .line span{
+    display: block;
+    width:100px;
+    background: #1b9a6e;
+    height: 4px;
+    margin: auto;
+}
+section.work p{
+    color: #6c757d;
+    margin: 20px auto;
+    text-align: center;
+}
+section.work .father{
+     
+    overflow: hidden;
+}
+section.work .father .image{
+    float: left;
+    width: 30%;
+    background-size: cover;
+    overflow: hidden;
+    position: relative;
+    margin: 10px;
+    height: 200px;
+    border-radius: 10px;
+    border:1px solid #1b9a6e;
+}
+section.work .father .image:first-of-type{
+    background-image: url(../images/1.jpg);
+}
+section.work .father .image:nth-of-type(2){
+    background-image: url(../images/2.jpg);
+}
+section.work .father .image:nth-of-type(3){
+    background-image: url(../images/3.jpg);
+}
+section.work .father .image:nth-of-type(4){
+    background-image: url(../images/4.jpg);
+}
+section.work .father .image:nth-of-type(5){
+    background-image: url(../images/5.png);
+}
+section.work .father .image:nth-of-type(6){
+    background-image: url(../images/6.jpg);
+}
+section.work .father .image .layout{
+        position: absolute;
+    top: -100%;
+    left: 0;
+    cursor: pointer;
+    width: 100%;
+    height: 100%;
+    text-align: Center;
+    background-color: rgba(255, 255, 255, 0.9);
+    transition: all .5s ease;
+}
+section.work .father .image:hover .layout{
+    bottom: 0;
+    height: 100%;
+}
+/************try************/
+.try{
+    background: url(../images/back.jpg);
+    position: relative;
+    color: #fff;
+    height: 300px;
+}
+.try img{
+        width: 40%;
+    animation: pulse 2.5s linear infinite;
+}
+.try .paragraph{
+    padding: 20px 0;
 }
