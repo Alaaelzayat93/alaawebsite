@@ -306,6 +306,8 @@ section.work .father .image .layout{
     background:#FFF;
     opacity:0;
     transition: all 0.4s ease-in-out;
+    position: absolute;
+
 }
 section.work .father .image:hover .layout{
     opacity:0.6;
@@ -315,6 +317,7 @@ section.work .father .image:hover .layout{
     font-weight:700;
     font-family:"Times New Roman", Times, serif;
     padding:30px;
+
 }
 section.work .father .image .layout a{
     background: green;
@@ -549,7 +552,10 @@ line-height: 3.5;}
     position: relative;
     overflow: hidden;
     border-radius: 5px;
-    box-shadow: 5px 5px 3px #eee,-5px -5px 3px #eee;
+   box-shadow: 0px 10px  5px rgba(0,0,0,0.6);
+    -moz-box-shadow: 0px 10px  5px  rgba(0,0,0,0.6);
+    -webkit-box-shadow: 0px 10px 5px  rgba(0,0,0,0.6);
+    -o-box-shadow: 0px 10px 5px  rgba(0,0,0,0.6);
 }
 .our-service .father .son .img{
     text-align: center;
@@ -576,6 +582,10 @@ line-height: 3.5;}
     margin-right: 3%;
     margin-top: 20px;
 }
+.our-service .father .son:nth-of-type(6){
+    margin-right: 2%;
+    margin-top: 20px;
+}
 .our-service .father .son:first-of-type .img{
     background-image: url('../images/serv1.jpg');
 }
@@ -593,6 +603,9 @@ line-height: 3.5;}
 .our-service .father .son:nth-of-type(5) .img{
     background-image: url('../images/ser5.jpeg');
 }
+.our-service .father .son:nth-of-type(6) .img{
+    background: url('../images/ser6.jpg');
+}
 .our-service .father .son .title{
     padding-top: 8px;
     background: #fff;
@@ -601,7 +614,8 @@ line-height: 3.5;}
     margin-top: 1px;
 }
 .our-service .father .son:hover .layout {
-    top:0;
+  top:0;  
+
 
 }
 .our-service .father .son .layout{
