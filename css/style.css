@@ -57,7 +57,7 @@ width: 100%;
 }
 
 .navbar .navbar-brand{
-    color: brown;
+    color: #fff;
     font-size: 30px;
 }
 @media screen and(max-width:768px){
