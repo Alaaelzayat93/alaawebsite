@@ -301,17 +301,30 @@ section.work .father .image:nth-of-type(6){
     background-image: url(../images/6.jpg);
 }
 section.work .father .image .layout{
-        position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    text-align: center;
-    padding: 15px;
-    color: #fff;
-    z-index: 2;
+        width:340px;
+    height:217px;
+    background:#FFF;
+    opacity:0;
+    transition: all 0.4s ease-in-out;
 }
 section.work .father .image:hover .layout{
-    bottom: 0;
-    height: 100%;
+    opacity:0.6;
+    text-align:justify;
+    color:#000000;
+    font-size:20px;
+    font-weight:700;
+    font-family:"Times New Roman", Times, serif;
+    padding:30px;
+}
+section.work .father .image .layout a{
+    background: green;
+    border-radius: 10px;
+    padding: 10px 20px;
+    margin: auto;
+    line-height: 5;
+        margin-left: 50px;
+        transition: all 0.5s ease-in-out;
+        color:#fff;
 }
 /************try************/
 .try{
@@ -589,7 +602,7 @@ line-height: 3.5;}
 }
 .our-service .father .son:hover .layout {
     top:0;
-    
+
 }
 .our-service .father .son .layout{
     width:100%;
