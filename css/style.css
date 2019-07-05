@@ -472,7 +472,6 @@ background:
     background-image: url(../images/back.jpg);
     width: 100%;
     background-repeat: no-repeat;
-    
     position: relative;
     height: 400px;
     color: #fff;
@@ -621,7 +620,6 @@ line-height: 3.5;}
 .our-service .father .son .layout{
     width:100%;
     max-height: 90%;
-    left: 0;
     top:-100%;
     transition: all .4s ease;
     position: absolute;
@@ -646,4 +644,86 @@ line-height: 3.5;}
     background: #fff;
     color: #000;
     border-color: #fff
+}
+/***work with us/****/
+.work-us{
+    padding:50px 0;
+}
+.work-us i{
+    font-size: 50px;
+    color:#1b9a49;
+}
+.work-us h2{
+    font-size: 20px;
+}
+.work-us p{
+color:#555;
+}
+/***loading---***/
+.loading{
+    background: url(../images/2.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    height: 500px;
+    position: relative;
+    z-index: 2;
+    box-shadow: 0px 3px 3px #000;
+    color: #fff;
+}
+.loading .layout{
+    width: 100%;
+    height: 100%;
+    background: rgba(83, 186, 0, .8);
+    position: absolute;
+    left: 0;
+    top: 0;
+
+}
+.loading .layout .load{
+    margin-top: 100px;
+}
+.loading .layout h3{
+    font-size: 50px;
+    font-weight: bold;
+    margin: 50px;
+}
+.loading .layout p{
+        
+    line-height: 1.6;
+    font-size: 28px;
+    margin: 40px;
+}
+.loading .layout h3 span{
+    color:#000;
+}
+.loading .layout i{
+    margin: 220px 0;
+}
+/******customize**/
+.customize{
+    height: 550px;
+
+}
+.customize .img{
+    background-attachment:fixed;
+   width:45%;
+   float: left;
+   height: 500px;
+    background: url('../images/6.jpg');
+}
+.customize .main-title{
+    width: 50%;
+    float: left;
+    margin-left: 5%;
+}
+.customize .main-title p{
+    color:#5a585acc;
+}
+.customize .main-title .icon{
+    width:10%;
+    float: left;
+}
+.customize .main-title .title{
+    width:85%;
+    float: left;
 }
