@@ -264,9 +264,14 @@ section.services .column h4
 }
 section.services .column button{
         background: none;
-    border: 0;
+    padding: 8px;
     color: #1b9a6e;
     font-weight: bold;
+}
+section.services .column button:hover{
+    background: #1b9a6e;
+    color: #fff;
+    transition: all 2s ease-in-out;
 }
 section.services hr{
     height: 1px;
@@ -402,6 +407,13 @@ section.work .father .image .layout a{
     background: #fafdfc;
     width: 25%;
 }
+
+@media all and (max-width: 559px){ 
+.try{
+    height: 100%;
+}
+}
+
 /*******promise************/
 .promise{
     padding: 20px;
@@ -524,6 +536,11 @@ background:
 .footer .row{
         padding-top: 69px;
 }
+@media all and (max-width: 559px){
+.footer{
+    height: 100%;
+} 
+    }
 /***footer2*****/
 .footer2{
         background-image: linear-gradient(260deg, #186c4f 0%, #171413 100%);
