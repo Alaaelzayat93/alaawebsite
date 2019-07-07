@@ -10,6 +10,8 @@ $(function(){
 });
   });
 
+
+
 //links active
 $('.nav-link').click(function(){
   $(this).addClass('active').siblings().removeClass('active');
@@ -25,6 +27,7 @@ $('.slider').each(function(){
 $('.slider').bxSlider({
   pager:false
 });
+
 
 /*
 window.onscroll = function() {scrollFunction()};
@@ -47,33 +50,19 @@ navbar.addClass('scrolled fixed-top');
 navbar.removeClass('scrolled navbar-fixed-top');
 }
 });
-});
-/*carousel*/
-$('#plog-carousel').owlCarousel({
-  loop: true,
-  margin: 10,
-  autoplay:true,
-  // nav:true,
-  responsiveClass:true,
-  responsive: {
-    0: {
-      items: 1,
-      nav: true
-    },
-    600: {
-      items: 2,
-      nav: false
-    },
-    1000: {
-      items: 3,
-      nav: true,
-      // loop: false
-    }
-  }
-})
+
+
+
+
 //wow 
 new WOW().init();
+let mainNav = document.getElementById("js-menu");
+let navBarToggle = document.getElementById("js-navbar-toggle");
 
+navBarToggle.addEventListener("click", function() {
+  mainNav.classList.toggle("active");
+});
+});
 
 
 

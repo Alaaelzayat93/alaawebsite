@@ -33,51 +33,29 @@
     <!--End If-->
   </head>
   <body>
-    <!----nav--------->
-    <nav class="navbar navbar-expand-lg navbar-dark ">
-      <div class="container">
-  <a class="navbar-brand" href="#">icon</a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-
-  <div class="collapse navbar-collapse" id="navbarSupportedContent">
-    <ul class="navbar-nav ml-auto">
-      <li class="nav-item active">
-        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+   <nav class="navbar">
+    <span class="navbar-toggle" id="js-navbar-toggle">
+            <i class="fas fa-bars"></i>
+        </span>
+    <a href="#" class="logo">logo</a>
+    <ul class="main-nav" id="js-menu">
+      <li>
+        <a href="#" class="nav-links">Home</a>
       </li>
-      <li class="nav-item">
-        <a class="nav-link" href="services.html">services</a>
+      <li>
+        <a href="#" class="nav-links">Products</a>
       </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">about</a>
+      <li>
+        <a href="#" class="nav-links">About Us</a>
       </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">samples</a>
+      <li>
+        <a href="#" class="nav-links">Contact Us</a>
       </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">for agencies</a>
+      <li>
+        <a href="#" class="nav-links">Blog</a>
       </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">reviews</a>
-      </li>
-      <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          Dropdown
-        </a>
-        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-          <a class="dropdown-item" href="#">Action</a>
-          <a class="dropdown-item" href="#">Another action</a>
-          <div class="dropdown-divider"></div>
-          <a class="dropdown-item" href="#">Something else here</a>
-        </div>
-      </li>
-      
     </ul>
-    </div>
-  </div>
-</nav>
-<!-----end nav---------->
+  </nav>
 <!---header--->
     <div class="header" id="home">
       <div class="overlay">
@@ -127,7 +105,7 @@
     
   
   <div class="row">
-    <div class="col-lg-4 col-md-3 col-xs-12" >
+    <div class="col-lg-4 col-md-3 col-12" >
       <div class="column text-center" wow fadeinRight>
         <i class="fab fa-html5" id="html5"></i>
         <h4>psd to html</h4>
@@ -138,7 +116,7 @@
             <button>more details</button>
       </div>
     </div>
-    <div class="col-lg-4 col-md-3 col-xs-12">
+    <div class="col-lg-4 col-md-3 col-12">
      <div class="column text-center">
       <i class="fab fa-wordpress-simple" id="wordpress"></i>
       <h4>psd to wordpress</h4>
@@ -149,7 +127,7 @@
           <button>more details</button>
      </div>
     </div>
-    <div class="col-lg-4 col-md-3 col-xs-12">
+    <div class="col-lg-4 col-md-3 col-12">
       <div class="column text-center">
         <i class="fas fa-envelope-open-text" id="email"></i>
           <h4>psd to html email</h4>
@@ -163,7 +141,7 @@
 <!--2row------->
 <hr>
 <div class="row">
-    <div class="col-lg-4 col-md-3 col-xs-12">
+    <div class="col-lg-4 col-md-3 col-12">
       <div class="column text-center">
         <i class="fab fa-wikipedia-w" id="w"></i>
         <h4>psd to woocommerce</h4>
@@ -174,7 +152,7 @@
             <button>more details</button>
       </div>
     </div>
-    <div class="col-lg-4 col-md-3 col-xs-12">
+    <div class="col-lg-4 col-md-3 col-12">
      <div class="column text-center">
       <i class="fab fa-stripe-s" id="shopify"></i>
       <h4>psd to shopify</h4>
@@ -185,7 +163,7 @@
           <button>more details</button>
      </div>
     </div>
-    <div class="col-lg-4 col-md-3 col-xs-12">
+    <div class="col-lg-4 col-md-3 col-12">
       <div class="column text-center">
         <i class="fab fa-react" id="react"></i>
           <h4>psd to html email</h4>
@@ -428,20 +406,17 @@
         <div class="footer2">
           <div class="container">
             <div class="row">
-              <div class="col-md-5 col-xs-6">
+              <div class="col-md-8 col-xs-6">
                 <h2>copyright 2019-2019 website.com</h2>
               </div>
-              <div class="col-md-3 col-xs-6 icon">
+              <div class="col-md-4 col-xs-6 icon">
 
                 <i class="fab fa-facebook-square"></i>
                 <i class="fab fa-twitter-square"></i>
                 <i class="fab fa-instagram"></i>
                 <i class="fab fa-youtube-square"></i>
               </div>
-              <div class="col-md-4 col-xs-6 contact">
-                <input type="text" placeholder="message">
-                    <button class="contact">contact</button>
-            </div>
+              
           </div>
         </div>
       </div>
