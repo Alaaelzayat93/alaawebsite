@@ -552,7 +552,7 @@ background:
 }
 /******fooetr*/
 .footer{
-        padding: 100px 100px;
+    padding: 100px 100px;
     background-image: url(../images/back.jpg);
     width: 100%;
     background-repeat: no-repeat;
@@ -562,17 +562,24 @@ background:
     
 }
 .footer .row{
-        padding-top: 69px;
+    padding-top: 69px;
 }
-@media all and (max-width: 559px){
+@media all and (max-width: 767px){
 .footer{
     height: 1064px !important;
-} 
-    }
+    background-size: cover;
+      } 
+
+.footer .row{
+    padding-top: 35px;
+      }
+
+}
+
 /***footer2*****/
 .footer2{
         background-image: linear-gradient(260deg, #186c4f 0%, #171413 100%);
-    color:#fff;
+    color:#fff;text-align: center;padding: 5px 0;
 
 }
 .footer2 h2{
@@ -593,13 +600,17 @@ background:
 
 @media all and (max-width: 595px){
     
-    .footer2 .icon i{
-    font-size: 13px;
-    
+    .footer2 i{
+    font-size: 20px;
+    margin-right: 5px;
+    transition: 2s all ease-in-out    
 }
+    .footer2 i:hover {
+        transform: rotate(360deg);
+    }
 .footer2 h2{
     
-    font-size: 13px;
+    font-size: 20px;
 }
     
 }
