@@ -590,21 +590,18 @@ background:
   color:#ccc;
   transition: all 0.5s ease-in-out;
 }
-.footer2 .contact{
-        
-}
-.footer2 .contact input[type="text"] {
-    border-radius: 20px;
-    height: 40px;
-    outline: 0;
-line-height: 3.5;}
+
+@media all and (max-width: 595px){
     
-.footer2 .contact button.contact {
-    border-radius: 20px;
-    padding: 10px 10px;
-    position: relative;
-    background: #08142a;
-    color: #f9cc41;
+    .footer2 .icon i{
+    font-size: 13px;
+    
+}
+.footer2 h2{
+    
+    font-size: 13px;
+}
+    
 }
 /*****service page*******/
 /*************** services ************/
