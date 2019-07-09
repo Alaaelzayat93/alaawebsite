@@ -20,6 +20,7 @@ html{
     scroll-behavior: smooth;
 }
 body{
+    height: 4000px;
     overflow-x: hidden;
     font-family: 'Roboto Slab', serif;
 }
