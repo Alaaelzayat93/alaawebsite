@@ -26,11 +26,12 @@ body{
 }
 
 .scrolled{
-	background-color: #1b9a6e6b !important;
+	background-color:#11a773b8 !important;
 	color: #fff;
 	width: 100%;
 
 }
+
 
 
 
@@ -199,9 +200,17 @@ color: #fff;
 }
 @media(max-width: 768px){
     .header .slider li h2{
-        font-size: 22px;
+       font-size: 18px;
     }
+    .header .slider li .header-footer {
+    width: 34px;
+    height: 53px;
 
+}
+.bx-wrapper .bx-controls-direction a {
+    
+    top: 25%;
+}
 }
 .header .slider li h2 span{
     color: #1b9a6e;
@@ -246,6 +255,7 @@ text-align: center;
     font-size: 10px;
     color: #ccc;
     margin-top: 20px;
+        width: 75%;
         
     
 }
