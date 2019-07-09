@@ -20,7 +20,7 @@ html{
     scroll-behavior: smooth;
 }
 body{
-    height: 4000px;
+    
     overflow-x: hidden;
     font-family: 'Roboto Slab', serif;
 }
@@ -231,7 +231,7 @@ color: #fff;
 .header .bx-wrapper {
 background: none;
 border: 0;
-height: 100%;
+
 }
 .bx-viewport{
 box-shadow: none;
