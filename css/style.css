@@ -456,7 +456,9 @@ section.work p{
     font-size: 13px;
 }
 section.work .father .image .layout a{
-    padding: 5px 10px;
+   margin-left: 1.5rem;
+   letter-spacing: 0;
+   padding: 3px 4px;
 }
 
 }
