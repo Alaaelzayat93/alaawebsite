@@ -202,15 +202,8 @@ color: #fff;
     .header .slider li h2{
        font-size: 18px;
     }
-    .header .slider li .header-footer {
-    width: 34px;
-    height: 53px;
-
-}
-.bx-wrapper .bx-controls-direction a {
     
-    top: 25%;
-}
+
 }
 .header .slider li h2 span{
     color: #1b9a6e;
