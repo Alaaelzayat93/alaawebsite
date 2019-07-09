@@ -134,12 +134,11 @@ body{
 /*nav end*/
 .header{
 
-background-repeat: no-repeat;
-width: 100%;
+position: relative;
+    background: linear-gradient(#217e5d,rgba(187,145,47,0.23)),url(../images/header.jpg) no-repeat;
 background-size: cover;
-background-image: url("../images/header.jpg");
-background-position: center;
 
+height: 600px !important;
 
 
 color: #fff;
