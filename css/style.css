@@ -204,6 +204,7 @@ color: #fff;
     }
 
 
+
 }
 .header .slider li h2 span{
     color: #1b9a6e;
@@ -342,6 +343,9 @@ section.services span{
 section.services h4{
     font-size: 18px;
 }
+section.services {
+    margin-top: 1%;
+}
 }
 
 /*********services*************/
@@ -439,6 +443,9 @@ section.work .father .image .layout a{
     text-decoration: none;
 }
 @media (max-width: 771px){
+    section.work{
+        margin-top: 15;
+    }
 section.work .father .image {
     width: calc(90% / 1);
 }
@@ -483,6 +490,7 @@ section.work p{
 @media all and (max-width: 559px){ 
 .try{
     height: 100%;
+    margin-top: 1%;
 }
 
 .try .main h2 {
@@ -542,6 +550,9 @@ div.promise p{
     text-align: center;
 }
 @media(max-width: 771px){
+    .promise{
+        margin-top: 1%;
+    }
     .promise h1{
         font-size: 1.5rem;
     }
