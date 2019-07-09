@@ -202,7 +202,7 @@ color: #fff;
     .header .slider li h2{
        font-size: 18px;
     }
-    
+
 
 }
 .header .slider li h2 span{
@@ -328,6 +328,22 @@ color:#adc941;
 section.services .column i#react{
   color:#de7f6b;  
 }
+@media (max-width: 771px){
+    section.services p{
+        font-size: 12px;
+    }
+    section.services h1 {
+    
+    font-size: 1.5rem;
+}
+section.services span{
+    font-size: 13px;
+}
+section.services h4{
+    font-size: 18px;
+}
+}
+
 /*********services*************/
 section.work{
    
@@ -426,6 +442,13 @@ section.work .father .image .layout a{
 section.work .father .image {
     width: calc(90% / 1);
 }
+section.work h1{
+ font-size: 1.5rem;
+}
+section.work p{
+    font-size: 13px;
+}
+
 }
 /************try************/
 .try{
@@ -461,6 +484,16 @@ section.work .father .image {
 .try{
     height: 100%;
 }
+
+.try .main h2 {
+    font-size: 27px;
+}
+.try .main h4{
+    font-size: 20px;
+}
+.try .main p {
+    font-size: 14px;
+    }
 }
 
 /*******promise************/
@@ -507,6 +540,22 @@ div.promise .line span{
 }
 div.promise p{
     text-align: center;
+}
+@media(max-width: 771px){
+    .promise h1{
+        font-size: 1.5rem;
+    }
+    .promise  p {
+    font-size: 14px;
+    margin: 0;
+}
+.promise .title h2{
+    font-size: 18px;
+}
+.promise .title p {
+    margin: 0;
+    font-size: 13px;
+}
 }
 /**company***/
 .company{
@@ -595,6 +644,11 @@ background:
     color: #fff;
     transition: all 0.5s ease-in-out;
 }
+@media (max-width: 771px){
+    .project h1{
+        font-size: 1.5rem;
+    }
+}
 /******fooetr*/
 .footer{
     padding: 100px 100px;
@@ -611,13 +665,19 @@ background:
 }
 @media all and (max-width: 767px){
 .footer{
-    height: 1064px !important;
+    height: 846px !important;
     background-size: cover;
       } 
 
 .footer .row{
     padding-top: 35px;
     margin: 3%;
+      }
+      .footer h1{
+        font-size: 1.5rem;
+      }
+      .footer ul li{
+        font-size: 13px;
       }
 
 }
